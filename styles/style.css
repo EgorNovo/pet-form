@@ -1,0 +1,229 @@
+.main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+/*-----------------form----------------*/
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.form-center {
+  position: relative;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  position: absolute;
+  top: 31px;
+  left: 42px;
+  width: 130px;
+  height: 30px;
+}
+
+a {
+  color: #0C21C1;
+  text-decoration: none;
+}
+
+.form-link:hover {
+  text-decoration: underline;
+}
+
+.form-link:focus {
+  outline: none;
+}
+
+.form-link:focus-visible {
+  outline: 2px dashed #2537c4;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.form-text {
+  margin-bottom: 52px;
+
+  color: #000;
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal; 
+}
+
+.form-header {
+  margin-bottom: 22px;
+
+  color: #000;
+  font-family: Poppins, sans-serif;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;  
+}
+
+.fieldset {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+
+  border-style: none;
+  border: none;
+  padding: 0;
+  margin: 0;
+}
+
+.fieldset  {
+  margin-bottom: 49px;
+}
+
+.form__label {
+  color: #999;
+  font-family: Poppins, sans-serif;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal; 
+}
+
+.form__input {
+  min-width: 429px;
+  border: none;
+  border-style: none;
+  border-bottom: 1px solid #000;
+  padding-left: 20px;
+
+  background-image: url(../images/message\ 1.svg);
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: center;
+  background-size: 17px;
+
+  color: #000842;
+  font-family: Poppins, sans-serif;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.form__password .form__input {
+  background-image: url(../images/padlock\ 1.svg);
+}
+
+.form__input:focus-visible {
+  outline: none;
+  border-bottom: 2px solid #0C21C1;
+}
+
+.form__input:active {
+  outline: 2px solid #2537c4;
+  outline-offset: 2px;
+}
+
+.form__button {
+  width: 429px;
+  height: 53px;
+  margin-top: 95px;
+  border-radius: 32px;
+  border-style: none;
+  background: #0C21C1;
+  box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+  
+  color: #FFF;
+  font-family: Poppins, sans-serif;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.form__button:hover {
+  background: #2537c4;
+}
+
+.form__button:focus {
+  outline: none;
+}
+
+.form__button:focus-visible {
+  outline: 2px dashed #2537c4;
+  outline-offset: 2px;
+}
+
+.form__button:active {
+  outline: 2px solid #2537c4;
+  outline-offset: 2px;
+}
+
+.icon-list {
+  display: flex;
+  list-style: none;
+  gap: 21px;
+}
+
+.link-icon {
+  display: block;
+  padding-top: 8px;
+}
+
+.img-icon {
+  width: 41px;
+  height: 41px;
+  object-fit: cover;
+  object-position: center;
+}
+
+.link-icon:focus {
+  outline: none;
+}
+
+.link-icon:focus-visible {
+  outline: 2px dashed #2537c4;
+  outline-offset: 2px;
+  border-radius: 20.5px;
+}
+
+/*----------------description----------------*/
+.decription {
+  position: relative;
+  min-height: 859px;
+  border-radius: 15px;
+  background: #000842;
+  background-image: url(../images/mainpic.svg);
+  background-position-x: center ;
+  background-position-y: 100px;
+  background-repeat: no-repeat;
+}
+
+.decription-content {
+  position: absolute;
+  left: 88px;
+  bottom: 164px;
+
+  color: #FFF;
+  font-style: normal;
+  line-height: normal;
+}
+
+.decription h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+
+.decription p {
+  font-size: 20px;
+  font-weight: 300;
+}
